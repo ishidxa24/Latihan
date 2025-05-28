@@ -75,29 +75,38 @@
 
 // console.log(`indomie rasa`);
 
-let makananmie = {
-  nama: "Indomie",
-  harga: 3500,
-  varianMie: ["Ayam Bawang", "Soto Mie", "Mi Goreng", "Kari Ayam"],
-  rasafavorit: "Ayam Bawang",
-  rasafavorit2: "Soto Mie",
+// latihan
+// let makananmie = {
+//   nama: "Indomie",
+//   harga: 3500,
+//   varianMie: ["Ayam Bawang", "Soto Mie", "Mi Goreng", "Kari Ayam"],
+//   rasafavorit: "Ayam Bawang",
+//   rasafavorit2: "Soto Mie",
 
-  favorit: {
-    rasa1: "Ayam Bawang",
-    rasa2: "Soto Mie",
-    rasa3: "Mi Goreng",
-  },
+//   favorit: {
+//     rasa1: "Ayam Bawang",
+//     rasa2: "Soto Mie",
+//     rasa3: "Mi Goreng",
+//   },
 
-  mie: function () {
-    console.log(
-      `Mie favorit saya adalah ${this.rasafavorit} dan ${this.rasafavorit2}.`
-    );
-  },
+//   mie: function () {
+//     console.log(
+//       `Mie favorit saya adalah ${this.rasafavorit} dan ${this.rasafavorit2}.`
+//     );
+//   },
 
-  indomieenak: function () {
-    console.log (`Indomie dengan harga Rp.${this.harga} bikin saya ketagihan!`);
-  }
-}
+//   indomieenak: function () {
+//     console.log (`Indomie dengan harga Rp.${this.harga} bikin saya ketagihan!`);
+//   }
+// }
 
-makananmie.mie();
-makananmie.indomieenak();
+// makananmie.mie();
+// makananmie.indomieenak();
+
+// array
+let buah = ["apel", "jeruk", "mangga", "pisang", "anggur"];
+buah[2] = "kiwi"; // mengubah nilai pada indeks ke-2
+buah.push("semangka"); // menambahkan elemen baru ke akhir array
+
+
+console.log(`saya punya ${buah.length} buah yaitu: ${buah[0]}, ${buah[1]}, ${buah[2]}, ${buah[3]}, ${buah[4]} dan ${buah[5]}.`);
