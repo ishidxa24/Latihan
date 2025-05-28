@@ -92,8 +92,12 @@ let makananmie = {
     console.log(
       `Mie favorit saya adalah ${this.rasafavorit} dan ${this.rasafavorit2}.`
     );
+  },
+
+  indomieenak: function () {
+    console.log (`Indomie dengan harga Rp.${this.harga} bikin saya ketagihan!`);
   }
 }
 
-console.log(makananmie.nama);
 makananmie.mie();
+makananmie.indomieenak();
