@@ -12,15 +12,13 @@
 // // var, let, const
 // // var sudah jarang digunakan, lebih baik menggunakan let atau const
 
-
 // // let nama = "Adi Kusuma"; // variabel yang bisa diubah
-// // let kotafavorit = "Jakarta"; // variabel yang bisa diubah  
-// // const tanggalLahir = "12 maret 2005"; // variabel yang tidak bisa diubah 
+// // let kotafavorit = "Jakarta"; // variabel yang bisa diubah
+// // const tanggalLahir = "12 maret 2005"; // variabel yang tidak bisa diubah
 // // const umur = "20"; // variabel yang tidak bisa diubah
 
 // // kotafavorit = "Bandung"; // variabel bisa diubah
 // // nama = "Adi"; // variabel bisa diubah
-
 
 // // console.log(nama);
 // // console.log(umur);
@@ -28,12 +26,10 @@
 // // console.log(tanggalLahir);
 // // console.log(kotafavorit);
 
-
 // // number
 // // let nomer = 10; // tipe data number
-// // let berat = 20; // tipe data number    
+// // let berat = 20; // tipe data number
 // // let nan = "abc"; // tipe data string
-
 
 // // // boolean
 // // let benertidak = 1 > 2; // tipe data boolean
@@ -61,7 +57,7 @@
 //         kota: "Jakarta",
 //         provinsi: "DKI Jakarta"
 //     },
-//     isnikah: false, 
+//     isnikah: false,
 
 //     hitungUmur: function() {
 //         console.log(`hallo, nama saya ${this.nama}, umur saya ${this.umur} tahun.`); // backtick untuk string template penggunaan $ hanya untuk backtick
@@ -80,20 +76,24 @@
 // console.log(`indomie rasa`);
 
 let makananmie = {
-    nama: "Indomie",
-    harga: 3500,
-    varianMie: ["Ayam Bawang", "Soto Mie", "Mi Goreng", "Kari Ayam"],
-    rasafavorit: "Ayam Bawang",
-    rasafavorit2: "Soto Mie",
+  nama: "Indomie",
+  harga: 3500,
+  varianMie: ["Ayam Bawang", "Soto Mie", "Mi Goreng", "Kari Ayam"],
+  rasafavorit: "Ayam Bawang",
+  rasafavorit2: "Soto Mie",
 
-    favorit: {
-        rasa1: "Ayam Bawang",
-        rasa2: "Soto Mie",
-        rasa3: "Mi Goreng",
-    },
+  favorit: {
+    rasa1: "Ayam Bawang",
+    rasa2: "Soto Mie",
+    rasa3: "Mi Goreng",
+  },
 
-    pilihan: function() {
-        console.log(`Makanan favorit saya adalah ${this.nama} dengan rasa ${this.rasafavorit} dan ${this.rasafavorit2}.`);
-        console.log(`Harga ${this.nama} adalah Rp.${this.harga}.`);
-    }
+  mie: function () {
+    console.log(
+      `Mie favorit saya adalah ${this.rasafavorit} dan ${this.rasafavorit2}.`
+    );
+  }
 }
+
+console.log(makananmie.nama);
+makananmie.mie();
