@@ -113,8 +113,8 @@
 
 // Operator
 
-let alas = 10;
-let tinggi = 5;
+let alas = prompt("Masukkan panjang alas jajargenjang: ");
+let tinggi = prompt("Masukkan tinggi jajargenjang: ");
 let luas = alas * tinggi;
 
 alert(`luas jajargenjang adalah ${alas} * ${tinggi} = ${luas}`);
