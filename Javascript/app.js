@@ -104,9 +104,19 @@
 // makananmie.indomieenak();
 
 // array
-let buah = ["apel", "jeruk", "mangga", "pisang", "anggur"];
-buah[2] = "kiwi"; // mengubah nilai pada indeks ke-2
-buah.push("semangka"); // menambahkan elemen baru ke akhir array
+// let buah = ["apel", "jeruk", "mangga", "pisang", "anggur"];
+// buah[2] = "kiwi"; // mengubah nilai pada indeks ke-2
+// buah.push("semangka"); // menambahkan elemen baru ke akhir array
 
 
-console.log(`saya punya ${buah.length} buah yaitu: ${buah[0]}, ${buah[1]}, ${buah[2]}, ${buah[3]}, ${buah[4]} dan ${buah[5]}.`);
+// console.log(`saya punya ${buah.length} buah yaitu: ${buah[0]}, ${buah[1]}, ${buah[2]}, ${buah[3]}, ${buah[4]} dan ${buah[5]}.`);
+
+// Operator
+
+let alas = 10;
+let tinggi = 5;
+let luas = alas * tinggi;
+
+alert(`luas jajargenjang adalah ${alas} * ${tinggi} = ${luas}`);
+
+
