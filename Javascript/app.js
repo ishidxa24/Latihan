@@ -135,9 +135,9 @@
 // console.log(a !== c )
 
 // operator logika
-// && (AND)
-// || (OR)
-// ! (NOT)
+// && (AND) true jika sama kedua operand true
+// || (OR) true jika salah satu operand true
+// ! (NOT) membalik nilai boolean
 
 // Contoh
 // let dewasa = true;
@@ -151,11 +151,11 @@
 // object
 let saya = {
   nama: "Adi Kusuma",
-  dewasa : true,
+  dewasa : false,
   punyaTiket : false,
-  punyaKTP: true,
+  punyaKTP: false,
 }
 
-console.log(`Udah punya ktp?`, saya.dewasa || saya.punyaKTP );
-console.log(`Udah boleh masuk?`, saya.dewasa && saya.punyaTiket && saya.punyaKTP);
+console.log(`Belum punya ktp?`, !saya.dewasa && !saya.punyaKTP );
+console.log(`Udah boleh masuk?`, !saya.dewasa || !saya.punyaTiket || !saya.punyaKTP);
 console.log(`nama anda siapa? ${saya.nama} udah punya tiket?`, saya.dewasa && saya.punyaTiket);
