@@ -149,13 +149,26 @@
 
 
 // object
-let saya = {
-  nama: "Adi Kusuma",
-  dewasa : false,
-  punyaTiket : false,
-  punyaKTP: false,
-}
+// let saya = {
+//   nama: "Adi Kusuma",
+//   dewasa : false,
+//   punyaTiket : false,
+//   punyaKTP: false,
+// }
 
-console.log(`Belum punya ktp?`, !saya.dewasa && !saya.punyaKTP );
-console.log(`Udah boleh masuk?`, !saya.dewasa || !saya.punyaTiket || !saya.punyaKTP);
-console.log(`nama anda siapa? ${saya.nama} udah punya tiket?`, saya.dewasa && saya.punyaTiket);
+// console.log(`Belum punya ktp?`, !saya.dewasa && !saya.punyaKTP );
+// console.log(`Udah boleh masuk?`, !saya.dewasa || !saya.punyaTiket || !saya.punyaKTP);
+// console.log(`nama anda siapa? ${saya.nama} udah punya tiket?`, saya.dewasa && saya.punyaTiket);
+
+// operator terner
+
+// let usia = 20
+
+// let status = (usia>=17) ? 'Anda sudah dewasa' : 'Anda belum dewasa';
+// console.log(status)
+
+
+let usia = 10;
+let input = prompt("Umur andi berapa ya");
+let status = (usia>= 15) ? 'Anda boleh makan mie' : 'Anda belum boleh makan mie';
+console.log(status);
