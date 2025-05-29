@@ -168,7 +168,13 @@
 // console.log(status)
 
 
-let usia = 10;
-let input = prompt("Umur andi berapa ya");
-let status = (usia>= 15) ? 'Anda boleh makan mie' : 'Anda belum boleh makan mie';
-console.log(status);
+// let usia = 10;
+// let input = prompt("Umur andi berapa ya");
+// let status = (usia>= 15) ? 'Anda boleh makan mie' : 'Anda belum boleh makan mie';
+// console.log(status);
+
+let umur = 10;
+let = nama = prompt('nama anda siapa');
+let = umur = prompt('umur anda berapa');
+let makan = (umur >= 15 ? `${umur} belum boleh makan indomie` : `${umur} udah boleh makan indomie` )
+alert(makan);
