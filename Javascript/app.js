@@ -111,12 +111,51 @@
 
 // console.log(`saya punya ${buah.length} buah yaitu: ${buah[0]}, ${buah[1]}, ${buah[2]}, ${buah[3]}, ${buah[4]} dan ${buah[5]}.`);
 
-// Operator
+// Operator aritmatika
 
-let alas = prompt("Masukkan panjang alas jajargenjang: ");
-let tinggi = prompt("Masukkan tinggi jajargenjang: ");
-let luas = alas * tinggi;
+// let alas = prompt("Masukkan panjang alas jajargenjang: ");
+// let tinggi = prompt("Masukkan tinggi jajargenjang: ");
+// let luas = alas * tinggi;
 
-alert(`luas jajargenjang adalah ${alas} * ${tinggi} = ${luas}`);
+// alert(`luas jajargenjang adalah ${alas} * ${tinggi} = ${luas}`);
+
+// operator penugasan
+// let a = 10;
+
+// a *= 2;
+
+// console.log(`Hasil penugasan a += 5 adalah ${a}`) 
+
+// operator perbandingan
+// let a = 10
+// let b = 5
+// let c = '10'
+// let d = null
+
+// console.log(a !== c )
+
+// operator logika
+// && (AND)
+// || (OR)
+// ! (NOT)
+
+// Contoh
+// let dewasa = true;
+// let bawaMobil = true;
+// let punyaSim = false;
+
+// console.log(`Umurnya udah cukup?`, dewasa && bawaMobil);
+// console.log(`Boleh bawa mobil`, dewasa && bawaMobil && punyaSim);
 
 
+// object
+let saya = {
+  nama: "Adi Kusuma",
+  dewasa : true,
+  punyaTiket : false,
+  punyaKTP: true,
+}
+
+console.log(`Udah punya ktp?`, saya.dewasa || saya.punyaKTP );
+console.log(`Udah boleh masuk?`, saya.dewasa && saya.punyaTiket && saya.punyaKTP);
+console.log(`nama anda siapa? ${saya.nama} udah punya tiket?`, saya.dewasa && saya.punyaTiket);
